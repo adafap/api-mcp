@@ -1,0 +1,47 @@
+/* Mermaid Chart Styles */
+.mermaid-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Pie Chart Styles */
+.mermaid-container .pieCircle {
+  fill-opacity: 0.8;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.mermaid-container .pieTitleText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  fill: #333;
+}
+
+.mermaid-container .pieOuterText {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Flowchart Styles */
+.mermaid-container .node rect, 
+.mermaid-container .node circle, 
+.mermaid-container .node ellipse, 
+.mermaid-container .node polygon, 
+.mermaid-container .node path {
+  stroke-width: 2px;
+}
+
+.mermaid-container .edgePath .path {
+  stroke-width: 2px;
+}
+
+/* Legend Styles */
+.mermaid-container .legend rect {
+  fill-opacity: 0.8;
+}
+
+.mermaid-container .legend text {
+  font-weight: 500;
+  font-size: 0.9rem;
+} 
