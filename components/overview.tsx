@@ -25,7 +25,7 @@ export const Overview = () => {
           control platform. The source code is available on{' '}
           <Link
             className="font-medium underline underline-offset-4"
-            href="https://github.com/yourusername/api-mcp"
+            href="https://github.com/adafap/api-mcp"
             target="_blank"
           >
             GitHub
@@ -38,7 +38,7 @@ export const Overview = () => {
           Learn more about API-MCP by visiting our{' '}
           <Link
             className="font-medium underline underline-offset-4"
-            href="https://github.com/yourusername/api-mcp/docs"
+            href="https://github.com/adafap/api-mcp"
             target="_blank"
           >
             documentation
